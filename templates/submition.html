@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div>
+			<label for="name">Name: {{session["name"]}}</label>
+		</div>
+		<div>
+			<label for="locations">Location: {{session["locations"]}}</label>
+		</div>
+		<div>
+			<label for="fav_stack"
+				>Favorite language: {{session["fav_stack"]}}</label
+			>
+		</div>
+
+		<div>
+			<label for="comment">Comment: s{{"comment"}}</label>
+		</div>
+		<a href="/">return to survery</a>
+	</body>
+</html>
