@@ -14,7 +14,6 @@ def show_survey():
 
 @app.route("/submit")
 def display_submitio_page():
-
     return render_template("submition.html")
 
 
